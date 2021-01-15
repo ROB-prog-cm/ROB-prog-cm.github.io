@@ -88,12 +88,12 @@
 
 /***/ "./src/assets/js/app.js":
 /*!******************************!*\
-  !*** ./src/assets/js/app.js ***!
+  !*** ./src/assets/js/app-v2.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("scrollbar = document.body.clientWidth - window.innerWidth + 'px';\r\n\r\ndocument.querySelectorAll('[href=\"#openModal\"]').forEach((el) => {\r\n    el.addEventListener('click', function () {\r\n        document.body.style.overflow = 'hidden';\r\n        document.querySelector('#openModal').style.marginLeft = scrollbar;\r\n    })\r\n});\r\ndocument.querySelectorAll('[href=\"#close\"]').forEach((el) => {\r\n    el.addEventListener('click', function () {\r\n        document.body.style.overflow = 'visible';\r\n        document.querySelector('#openModal').style.marginLeft = '0px';\r\n    })\r\n});\r\n\n\n//# sourceURL=webpack:///./src/assets/js/app.js?");
+eval("scrollbar = document.body.clientWidth - window.innerWidth + 'px';\r\n\r\ndocument.querySelectorAll('[href=\"#openModal\"]').forEach((el) => {\r\n    el.addEventListener('click', function () {\r\n        document.body.style.overflow = 'hidden';\r\n        document.querySelector('#openModal').style.marginLeft = scrollbar;\r\n    })\r\n});\r\ndocument.querySelectorAll('[href=\"#close\"]').forEach((el) => {\r\n    el.addEventListener('click', function () {\r\n        document.body.style.overflow = 'visible';\r\n        document.querySelector('#openModal').style.marginLeft = '0px';\r\n    })\r\n});\r\n\n\n//# sourceURL=webpack:///./src/assets/js/app-v2.js?");
 
 /***/ })
 
