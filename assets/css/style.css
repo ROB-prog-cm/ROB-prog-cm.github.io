@@ -497,6 +497,11 @@ h1, h2, h3.h4, h5, h5 {
     border-radius: 4px;
     border: none;
     cursor: pointer;
+    text-decoration: none;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
 }
 
 .button:hover {
@@ -561,6 +566,7 @@ h1, h2, h3.h4, h5, h5 {
     .button {
         width: 180px;
         height: 38px;
+        padding: 10px 0;
     }
 }
 
@@ -771,6 +777,11 @@ h1, h2, h3.h4, h5, h5 {
     border-radius: 4px;
     border: none;
     cursor: pointer;
+    text-decoration: none;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
 }
 
 .btn:hover {
@@ -856,6 +867,7 @@ h1, h2, h3.h4, h5, h5 {
     .btn {
         width: 190px;
         height: 38px;
+        padding: 10px 0;
     }
 }
 
